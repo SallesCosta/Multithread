@@ -38,7 +38,6 @@ type ApiCEP struct {
 
 func main() {
 	var cep string
-	// cep := "87053259"
 	c1 := make(chan ApiCEP)
 	c2 := make(chan ViaCEP)
 
